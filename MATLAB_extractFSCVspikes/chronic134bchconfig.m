@@ -1,0 +1,13 @@
+sessionnum=1340;
+
+ncschannels={'p1','p3','p1-p3','pl3',...
+    'p1-pl3','p3-pl3',...
+    'cl1','cl3','cl1-cl3','cl4','cl1-cl4','cl3-cl4',...
+    'cl5','cl4-cl5','cl1-cl5','s5','s4','s5-s4','s3','s4-s3',...
+    'eyex','eyed','lickx','pulse'};    %all working channels
+
+letterdrive='Y:';   
+fscvdir='patra_fscv';   %FSCV folder
+paths{1}=fullfile(letterdrive,'data_MIT',fscvdir,'simulatedartifacttesting134b',filesep);
+paths{2}='Y:\amjad\Spike_sorting\134b\rail\';
+

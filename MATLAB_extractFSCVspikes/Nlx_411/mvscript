@@ -1,0 +1,7 @@
+for f in $(<names.txt)
+do
+    mv $f.m ${f}_411.m
+    mv $f.mexw32 ${f}_411.mexw32
+    mv $f.mexw64 ${f}_411.mexw64
+done
+
